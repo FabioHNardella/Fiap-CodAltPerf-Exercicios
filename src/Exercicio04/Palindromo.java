@@ -1,10 +1,12 @@
 package Exercicio04;
 
-import Exercicio02.pilhas.PilhaInt;
 import java.util.Scanner;
+
+import Exercicio02.pilhas.PilhaInt;
 
 public class Palindromo {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         PilhaInt pilha = new PilhaInt();
         int[] aux = new int[pilha.N];
